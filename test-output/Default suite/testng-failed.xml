@@ -6,8 +6,9 @@
       <class name="login.NewTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testMethod" invocation-numbers="1"/>
           <include name="setUp"/>
+          <include name="ScreenshotCapture"/>
+          <include name="failedMethodToCheckScreenShot"/>
         </methods>
       </class> <!-- login.NewTest -->
     </classes>
